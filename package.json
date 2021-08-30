@@ -1,0 +1,22 @@
+{
+  "name": "advancenodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backpressure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmapr25/advanceNodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharmapr25/advanceNodejs/issues"
+  },
+  "homepage": "https://github.com/sharmapr25/advanceNodejs#readme",
+  "devDependencies": {
+    "multiparty": "^4.2.2"
+  }
+}
