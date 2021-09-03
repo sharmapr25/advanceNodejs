@@ -1,0 +1,14 @@
+{
+  "floor": [
+    {"name": "ski googles", "qty": 5},
+    {"name": "ski hats", "qty": 15}
+  ],
+  "backroom": [
+    {"name": "ski poles", "qty": 2},
+    {"name": "ski hats", "qty": 15}
+  ],
+  "localStore": [
+    {"name": "ski boots", "qty": 5},
+    {"name": "wax", "qty": 8}
+  ]
+}
