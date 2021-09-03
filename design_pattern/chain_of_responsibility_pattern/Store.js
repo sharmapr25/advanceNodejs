@@ -3,13 +3,19 @@ const Storage = require("./Storage");
 class Store{
   constructor(name, inventory=[]) {
     this.name = name;
-    this.inventory = inventory;
-    // const floor = new Storage('store floor', inventory.floor);
-    // this.current = floor;
+
+    const floor = new Storage('store floor', inventory.floor);
+    const backroom = new Storage('store backroom', inventory.backroom);
+    const localStore = new Storage('nearby store', inventory.localStore, 1);
+
+    floor.setNext(backroom);
+    backroom.setNext(localStore);
+
+    this.storage = floor;
   }
 
   find(itemName){
-    return this.inventory.find(item => itemName == item.name) ;
+    return this.storage.find(itemName);
   }
 
 }
